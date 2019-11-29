@@ -1,0 +1,56 @@
+.productcontainer{
+   //background-color: chartreuse;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   .topcontainer{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      //background-color: coral;
+      padding-left: 20px;
+      padding-right: 20px;
+      .cal{
+         
+         vertical-align: center;
+         padding-top: 10px;
+         width: 40%;
+      }
+   }
+   .middlecontainer{
+      width: 100%;
+      //background-color: cyan; 
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .Row{ 
+         width:100%;
+         .gutter-row{
+            padding-top: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .card{
+               width: 100%;
+               /*.ant-card-cover{
+                  img{
+
+                  }
+               }
+               .ant-card-body{
+
+               }
+               .ant-card-actions{
+
+               }*/
+            }
+         }
+      }
+   }
+   
+}

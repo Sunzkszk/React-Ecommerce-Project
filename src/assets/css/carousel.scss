@@ -1,0 +1,17 @@
+.ant-carousel{
+   width: 95%;
+   //background-color: red;
+   .slick-slide {
+      text-align: center;
+      height: 600px;
+      width: 100%;
+      //background-color: royalblue;
+      h3 {
+         color: #fff;
+      }
+      img{
+         width: 100%;
+         height:600px;
+      }
+    }
+}

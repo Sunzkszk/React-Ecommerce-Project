@@ -1,0 +1,53 @@
+.footer{
+   background-color:black;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   padding-top: 50px;
+   width: 100%;
+   .top{
+      border-bottom: 1px solid;
+      padding-bottom: 30px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      
+      h2{
+         color: white;
+         cursor: pointer;
+         text-align: center;
+      }
+      p{
+         color:#CCCCFF;
+         cursor: pointer;
+         text-align: center;
+      }
+      .shop,.info,.help,.sign{
+         display: flex;
+         flex-direction: column;
+         justify-content: flex-start;
+         align-items: center;
+        
+      }
+   }
+   .bottom{
+      padding-top: 30px;
+      padding-bottom: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      color:#CCCCFF;
+      //background-color:red;
+      
+      .icon{
+         display: flex;
+         flex-direction: row;
+         justify-content: space-around;
+         margin-bottom: 10px;
+         width: 15%;
+         cursor: pointer;
+      }
+      
+   }
+}

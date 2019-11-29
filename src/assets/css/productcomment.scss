@@ -1,0 +1,40 @@
+.productcomment{
+   width:100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   margin-bottom: 50px;
+   ul{
+      width:80%;
+      //background-color: pink;
+      list-style: none;
+      padding: 0;
+      li{
+         //border-bottom: 2px solid #CCCCFF;
+         margin-bottom: 35px;
+         .top{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            //background-color: blue;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            .name{
+               //background-color: chocolate;
+               width:50%;
+               display: flex;
+               flex-direction: row;
+               justify-content: space-between;
+               align-items: center;
+            }
+            .ant-rate{
+               //background-color: chocolate;
+               width:40%;
+            }
+         }
+      }
+   }
+      
+}
