@@ -1,68 +1,87 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 项目名称
+```
+React电商网站
 
-## Available Scripts
+```
 
-In the project directory, you can run:
+## 技术栈
+```
+   "antd": "^3.24.3",
+   "babel-plugin-import": "^1.12.2",
+   "customize-cra": "^0.8.0",
+   "node-sass": "^4.13.0",
+   "react": "^16.11.0",
+   "react-app-rewired": "^2.1.5",
+   "react-dom": "^16.11.0",
+   "react-router": "^5.1.2",
+   "react-router-dom": "^5.1.2",
+   "react-scripts": "3.2.0"
+```
 
-### `yarn start`
+### 项目安装
+```
+npm install
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### 项目启动
+```
+npm start
 
-### `yarn test`
+```
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 示例
+```
+首页
+```
+![Image text](https://github.com/Sunzkszk/React-Ecommerce-Project/blob/master/public/example/home.PNG)
+```
+轮播图
+```
+![Image text](https://github.com/Sunzkszk/React-Ecommerce-Project/blob/master/public/example/carousel.PNG)
+```
+商品列表
+```
+![Image text](https://github.com/Sunzkszk/React-Ecommerce-Project/blob/master/public/example/productsList.PNG)
+```
+底部
+```
+![Image text](https://github.com/Sunzkszk/React-Ecommerce-Project/blob/master/public/example/footer.PNG)
+```
+分类
+```
+![Image text](https://github.com/Sunzkszk/React-Ecommerce-Project/blob/master/public/example/category.PNG)
+```
+分类商品列表
+```
+![Image text](https://github.com/Sunzkszk/React-Ecommerce-Project/blob/master/public/example/categoryProsuctsList.PNG)
+```
+商品详情
+```
+![Image text](https://github.com/Sunzkszk/React-Ecommerce-Project/blob/master/public/example/detail.PNG)
+```
+订单确认
+```
+![Image text](https://github.com/Sunzkszk/React-Ecommerce-Project/blob/master/public/example/confirm.PNG)
 
-### `yarn build`
+### 作者
+```
+Github:Sunzkszk
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+CSDN:szkszk77
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+微博:szkszk77
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+个人简介:中国石油大学（北京）一名非计算机相关专业的在读研究生。前端纯自学,有错误或建议之处,劳烦各位前辈与我联系。
 
-### `yarn eject`
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 致谢
+```
+感谢 tsejx 前辈
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+该项目参考了该前辈的UI设计，使用了该前辈的JSON数据文件与图片资源文件，为我项目的开发节约时间。
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+附参考项目的Github地址 https://github.com/tsejx/Mywork-ReactApp-Ecommerce
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+```
